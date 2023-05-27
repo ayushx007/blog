@@ -44,21 +44,6 @@ app.get("/posts/:topic", function (req, res) {//:topic is a route parameter, it 
       res.render("post", {title:post.title, content:post.content});
   })
 })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-app.listen(3000, function () {
+app.listen(process.env.PORT||3000, function () {
   console.log("Server started on port 3000");
 });
