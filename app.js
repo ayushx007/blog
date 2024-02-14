@@ -6,7 +6,7 @@ const ejs = require("ejs");
 const _ = require("lodash");
 
 const homeStartingContent = "Welcome to this online website based daily journal. Enjoy your stay!";
-const aboutContent = "This is Ayush Awasthi, the developer of this website. I am a web developer and a student of Computer Science Engineering at VIT Chennai. This is a project I made by using Angela Yu's Web Development course as a reference. Thank you for checking it out!";
+const aboutContent = "This is Ekagra Gupta, the developer of this website. I am a web developer and a student of Computer Science at Arizona State University. This is a project I made by using Angela Yu's Web Development course as a reference. Thank you for checking it out!";
 const contactContent = "You can contact me using the following links:";
 let posts = [];
 
